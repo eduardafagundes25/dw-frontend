@@ -1,0 +1,59 @@
+.lv1{
+    background: linear-gradient(135deg, #051f20, #dbf0dd);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.lv2{
+    background: linear-gradient(135deg, #051f20, #dbf0dd);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.lv{
+    background-color: #8cb79b;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.lv3{
+    background-color: #8cb79b;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.plantinha {
+    position: absolute; /* colocar o elemento em qualquer lugar da tela */
+    top: -40px; /* ajusta altura */
+    z-index: 2; /* Controla quem fica na frente ou atrás. */
+}
+
+#menu {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+#menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: #051f20;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
