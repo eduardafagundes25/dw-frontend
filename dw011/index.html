@@ -13,7 +13,7 @@
         #area{
             width: 200px;
             height: 100px;
-            outline: 1px solid white;
+            outline: 1px solid rgb(255, 255, 255);
             display: flex;
             justify-content: center;
             font-weight: bolder;
@@ -21,14 +21,10 @@
     </style>
 </head>
 <body>
-    <div onclick="clique()" id="area">
+    <div onmouseout="sair()" onmouseenter="entrar()" onclick="clique()" id="area">
         interaja comigo
     </div>
 
-    <div onmouseout="sair()" id="area">
-        interaja comigo
-    </div>
-
-    <script src="atv.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

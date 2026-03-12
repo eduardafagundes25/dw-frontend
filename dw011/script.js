@@ -1,4 +1,4 @@
-var area = document.getElementById (`area`);
+var area = document.getElementById('area');
 
 function clicar () {
     area.innerHTML = `Você clicou em mim...`

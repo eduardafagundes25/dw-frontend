@@ -1,0 +1,30 @@
+body{
+    /* background: radial-gradient(circle,     #8082a6, #46334f); */
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 40px;
+    color: #000000;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #f24f13;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f2c230;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
