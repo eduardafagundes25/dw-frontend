@@ -1,0 +1,68 @@
+<div id="Contador de cliques">
+
+    <div id="hero">
+    </div>
+    <!-- <h1><img src="imagem/Contador.png" alt="contador"></h1> -->
+
+    <button onclick="contar()">Clique em mim</button>
+    <button onclick="zerar()">Zerar o contador</button>
+
+    <p>O contador está com <span id="numero">0</span> cliques.</p>
+
+    <script src="script.js"></script>
+
+</div>
+
+<style>
+    body {
+        
+        color: #ddd;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 80px;
+    }
+    #hero {
+        
+        background: url(imagem/Contador.png) no-repeat center center/cover;
+        height: 150px;
+    }
+    div {
+       display: flex;
+       flex-direction: column;
+       background: url("imagem/download (1).jpg") no-repeat center center/cover;
+       text-align: center;
+       width: 1000px;
+       height: 700px;
+       border-radius: 15px;
+       
+
+       margin: auto; /* centraliza a div */
+    }
+
+    h1 {
+        width: auto;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 10px;
+        border-radius: 8px;
+        border: 1px solid #333;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #ddd;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    #numero {
+        background-color: rgb(43, 97, 104);
+        padding: 3px 8px;
+        border-radius: 5px;
+    }
+</style>

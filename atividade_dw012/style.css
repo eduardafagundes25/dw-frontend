@@ -28,3 +28,11 @@ button:hover{
     font-size: 20px;
     color: #333;
 }
+
+.menu {
+    text-align: center;
+    background-color: #8280a6;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
